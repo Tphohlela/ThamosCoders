@@ -1,0 +1,120 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+    font-family: sans-serif;
+}
+#container{
+    /* padding: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.Software {
+    box-shadow: 0 0 15px 0 rgb(188, 206, 206);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 165px;
+}
+.IT {
+    box-shadow: 0 0 15px 0 rgb(188, 206, 206);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 165px;
+}
+.job-update{
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.job-update .fa{
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #77d1b1;
+}
+.job-update .small{
+    background: #efefef;
+    padding: 1px 5px;
+    margin: 0 5px;
+}
+.job-update p{
+    margin-bottom: 0 !important;
+}
+.job-update a{
+    text-decoration: none;
+    color: #b6bed2;
+    float: right;
+}
+.apply-btn{
+    height: 40px;
+    background-image: linear-gradient(to right, #6db9ef, #97c79d);
+    padding: 7px;
+    /* padding-bottom: 20px; */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.apply-btn .btn{
+    padding: 0 30px;
+    height: 30px;
+    float: right;
+    border-radius: 5px;
+    box-shadow: none !important;
+    background: transparent;
+    /* border: 1px solid white; */
+}
+.menu-bar{
+        margin-bottom: 30px;
+        height: 50vh;
+        /* background: cadetblue; */
+        background: url("office.png") no-repeat center;
+	    background-size: cover;
+        border: cadetblue solid;
+        /* border-top-width: 1px;
+        border-right-width: 3px;
+        border-bottom-width: 1px;
+        border-left-width: 3px;*/
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-radius: 5px; 
+}
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 50%;
+    border-left: none;
+    height: 300px;
+}
+/* .search{
+    float: right;
+} */
+#title{
+    padding: 6px;
+    font-size: 17px;
+}
+.search button {
+    float: right;
+    padding: 6px;
+    height: 35px;
+    /* margin-top: 2px; */
+    margin-right: 25px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .search button:hover {
+    background: #ccc;
+  }
+  .search{
+    text-align: center;
+    width:150px;
+    margin: 10px auto;
+}
+.search{
+    text-align: center;
+    margin-bottom: 70px;
+}
