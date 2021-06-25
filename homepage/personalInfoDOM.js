@@ -117,7 +117,7 @@ function updateCounters() {
 
     } else {
         listJobs.innerHTML = 'Unfortunately,we have not been able to find a match for you';
-        list.innerHTML =`<a href="../homepage/index3.html"><p>Click this link for available jobs that might match your qualification</p></a>`;
+        list.innerHTML =`<a href="../homepage/index3.html"><p style="font-size:bold;">Click this link for available jobs that might match your qualification</p></a>`;
          
          var objIndex = categories.findIndex((category => category.job == interestVal));
          categories[objIndex].unmatchCounter = (categories[objIndex]).unmatchCounter + 1;

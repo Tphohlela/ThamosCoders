@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-​
+
 input[type=text]{
     width: 60%;
     padding: 12px 20px;
@@ -36,7 +36,7 @@ input[type=text]{
  button[type=submit]:hover {
     background-color:lightskyblue;
   }
-​
+
 input[type=radio]{
     padding: 25px 20px;
       margin-top: 40px;
@@ -61,7 +61,7 @@ body{
     margin-top: 20px;
     text-align: center;
 }
-​
+
 .main{
     background-color: rgb(0,0,0,0.2);
     width: 900px;
@@ -72,7 +72,7 @@ body{
 /* form{
     border-radius: 100px;
 } */
-​
+
 h1{
     background-color:rgb(0,0,0,0.3);
     margin: auto;
@@ -83,11 +83,11 @@ h1{
     font-size: 45px;
     /* border-radius: 100px; */
 }
-​
+
 .personal{
     padding: -30px;
 }
-​
+
 .education{
     /* padding: 50px; */
     margin-top: 60px;
@@ -96,13 +96,13 @@ h1{
     margin-left:27px;
     margin-top: 25px;
     width: 125px;
-​
+
 }
 #gender, #title, #province{
     margin-left:6px;
     margin-top:25px;
     width: 60%;
-​
+
 }
 h4{
     margin-left: 25px;
@@ -117,7 +117,7 @@ h4{
     margin-bottom: -50px;
     margin-left: 25px;
 }
-​
+
 label[for=vehicle1] {
     font-size: x-large;
 }
@@ -131,4 +131,4 @@ h2{
     padding: 20px;
     font-size: 40px;
 }
-​
+
