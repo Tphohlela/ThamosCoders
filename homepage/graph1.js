@@ -7,7 +7,7 @@ var jobList =   [
    { job: 'software-engineer', qual: 'Bachelors Degree'}
 ]
 var categories = [
-   { job: 'software-developer', matchCounter: 1, unmatchCounter: 0 },
+   { job: 'software-developer', matchCounter: 0, unmatchCounter: 0 },
    { job: 'IT technician', matchCounter: 0, unmatchCounter: 0 },
    { job: 'front end developer', matchCounter: 0, unmatchCounter: 0 },
    { job: 'back end developer', matchCounter: 0, unmatchCounter: 0 },
