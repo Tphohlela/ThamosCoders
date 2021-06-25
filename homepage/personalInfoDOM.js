@@ -103,7 +103,7 @@ function updateCounters() {
 
     if(jobsQualifiedFor.length > 0) {
 
-        listJobs.innerHTML = 'You have been matched successfully';
+        listJobs.innerHTML = 'You have been matched successfully!';
         listJobs.innerHTML += `<ol>${'Job : ' + interestVal + ' ,  ' + 'Qualification required :  ' + qualificationVal}</ol>`;
 
         // Find index of specific object using findIndex method.    
@@ -116,8 +116,8 @@ function updateCounters() {
         localStorage['categories'] = JSON.stringify(categories);
 
     } else {
-        listJobs.innerHTML = 'Unfortunately,we have not been able to find a match for you';
-        list.innerHTML =`<a href="../homepage/index3.html"><p style="font-size:bold;">Click this link for available jobs that might match your qualification</p></a>`;
+        listJobs.innerHTML = 'Unfortunately, we have not been able to find a match for you';
+        list.innerHTML =`<a href="../homepage/index3.html"><p style="font-size:12px; color=red; font-weight:bold;">Click this link for available jobs that might match your qualification</p></a>`;
          
          var objIndex = categories.findIndex((category => category.job == interestVal));
          categories[objIndex].unmatchCounter = (categories[objIndex]).unmatchCounter + 1;
